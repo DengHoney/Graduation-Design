@@ -15,7 +15,7 @@ public class Main {
         HSLFSlideOperate slideshowOperate = new HSLFSlideOperateImpl();
 
         try {
-            HSLFSlideShow ppt = slideOperate.loadPPT("16-9");
+            HSLFSlideShow ppt = slid eOperate.loadPPT("16-9");
             String size = slideOperate.retrieveSlideSize(ppt);
             System.out.println(size);
         } catch (IOException e) {
