@@ -10,7 +10,7 @@ public class Temp {
     public static void main(String[] args) {
         String a = "   dsdas a@qq.co m  ";
         System.out.println(a.trim());
-        System.out.println(a.trim().contains(" "));
+        System.out.println(a.   trim().contains(" "));
 		
     }
 
